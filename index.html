@@ -104,6 +104,16 @@
                 text-align: center;
                 padding: 10px;
             }
+            @media (max-width: 768px) {
+                .grid {
+                    grid-template-areas:
+                      "header"
+                      "navigation"
+                      "content"
+                      "sidebar"
+                      "footer";
+                    grid-template-columns: 1fr; /* single column layout */
+            }
         </style>
     </head>
     <body>
